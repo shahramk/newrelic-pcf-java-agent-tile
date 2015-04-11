@@ -16,17 +16,17 @@ This repository contains a Pivotal Cloud Foundry Tile that allows you to automat
 
 *    Download [Newrelic-Broker-alpha-x.x.x.pivotal](https://www.cubbyusercontent.com/pl/newrelic-pcf-java-agent-tile/_38e6209b721a47419318d805f7d9ec18 "PCF Tile for New Relic java agent")
 *    Login to your PCF Ops Mgr 
-*    On the left side of the page click on the button "Import a Product"
-*    Select the download .pivotal tile file (i.e. Newrelic-Broker-alpha-x.x.x.pivotal)
-*    Continue with the process to complete loading the tile
+*    On the left side of the page click on the button **"Import a Product"**
+*    Select the downloaded **.pivotal** tile file (i.e. Newrelic-Broker-alpha-x.x.x.pivotal)
+*    Continue with the process to complete uploading of the tile
 
 **Note:** The upload process might take long depending on your network connection speed. Please give it time to finish. It doesn't give you any indications during the upload, but if it fails or succeeds you will get a pop-up message.
 
 
-Once the tile is loaded to the PCF environment:
+Once the tile is uploaded to PCF environment:
 
-*    Hover your mouse on "Newrelic Service Broker Alpha v-x.x.x, and select the "Add" b utton to add the tile
-*    Click on New Relic Tile that was added to the page
+*    Hover your mouse on "Newrelic Service Broker Alpha v-x.x.x on the left side, and select the "Add" button to add the tile
+*    Click on New Relic Tile that was just added to the page
 *    Under "Settings" tab select "Service Broker Application"
 *    Enter your New Relic license key and click the "Save" button
 *    Go back to "Installation Dashboard" (link on top left of the page)
@@ -45,10 +45,11 @@ Once the tile is loaded to the PCF environment:
 *    Select the application to which to bind the service
 *    Click the "Add" button
 *    From your system connect to CF
-**    cf api <CF_API_ENDPOINT> [--skip-ssl-validation]
-**    cf login -u <USER> -p <PASSWORD>
-*    restage the application you just bound to the service
-**    cf restage <APPNAME>
+*        cf api **<CF_API_ENDPOINT>** [--skip-ssl-validation]
+*        cf login -u **<USER>** -p **<PASSWORD>**
+*    Restage the application you just bound to the service
+*        cf restage **<APPNAME>**
+*    Login to your New Relic account to check the health of the application.
 
 
 **Note:** After the initial time that the service is added to the space, you can just go to the intended space, scroll down to the bottom of the page, select "Services" tab, and click on "+Bind a Service" button.
