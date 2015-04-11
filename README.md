@@ -14,7 +14,7 @@ This repository contains a Pivotal Cloud Foundry Tile that allows you to automat
 
 ##Installation
 
-*    Download [Newrelic-Broker-alpha-x.x.x.pivotal](https://www.cubbyusercontent.com/pl/newrelic-pcf-java-agent-tile/_38e6209b721a47419318d805f7d9ec18 "PCF Tile for New Relic java agent")
+*    Download [Newrelic Service Broker Tile for java agent](https://www.cubbyusercontent.com/pl/newrelic-pcf-java-agent-tile/_38e6209b721a47419318d805f7d9ec18 "PCF Tile for New Relic java agent")
 *    Login to your PCF Ops Mgr 
 *    On the left side of the page click on the button **"Import a Product"**
 *    Select the downloaded **.pivotal** tile file (i.e. Newrelic-Broker-alpha-x.x.x.pivotal)
