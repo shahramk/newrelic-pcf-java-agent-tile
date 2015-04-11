@@ -45,10 +45,10 @@ Once the tile is uploaded to PCF environment:
 *    Select the application to which to bind the service
 *    Click the "Add" button
 *    From your system connect to CF
-*        cf api **<CF_API_ENDPOINT>** [--skip-ssl-validation]
-*        cf login -u **<USER>** -p **<PASSWORD>**
+    *    cf api **<CF_API_ENDPOINT>** [--skip-ssl-validation]
+    *    cf login -u **<USER>** -p **<PASSWORD>**
 *    Restage the application you just bound to the service
-*        cf restage **<APPNAME>**
+    *    cf restage **<APPNAME>**
 *    Login to your New Relic account to check the health of the application.
 
 
