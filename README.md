@@ -28,7 +28,7 @@ Once the tile is uploaded to PCF environment:
 *    Hover your mouse on **"Newrelic Service Broker Beta v-x.x.x"** on the left side, and select the **"Add"** button to add the tile
 *    Click on New Relic Tile that was just added to the page
 *    Under **"Settings"** tab select **"Service Broker Application"**
-*    For every account or sub-account you want to add click the **"Add"**
+*    For every account or sub-account you want to add click the **"Add"** button on the right side
 *    Enter **"Plan Name"**, **"Plan Description"**, and your **"New Relic license key"** for each account/sub-account
 *    Once you have entered plans for all desired accounts, click the **"Save"** button
 *    Go back to **"Installation Dashboard"** (link on top left of the page)
